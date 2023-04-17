@@ -1,0 +1,81 @@
+.tqda-icon {
+  background-image: url("/img/icontqda.svg");
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  display: grid;
+  align-items: center;
+  background-position-y: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4d4d56;
+}
+.tqda__banner {
+  background-image: url("/img/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tqda-swiper {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  body {
+    background: #000;
+    color: #000;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 70%;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .tqda__mobile {
+    h3 {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global style */
+
+@import "./variables.scss";
+@import "./fonts.scss";
+@import "./functions.scss";
+@import "./global.scss";
+@import "./responsive.scss";
+
+/* Wrapper */
+
+/* Components */
+@import "../components/Header/Header.scss";
+@import "../components/Hero/Hero.scss";
+@import "../components/Information/Information.scss";
+@import "../components/About/About.scss";
+@import "../components/Service/Service.scss";
+@import "../components/Pricing/Pricing.scss";
+@import "../components/Contact/Contact.scss";
+@import "../components/Footer/Footer.scss";
+@import "../components/Langue/Langue.scss";
+@import "../components/Totalable/Totalable.scss";
+@import "../components/LakeVilla/LakeVilla.scss";
+@import "../components/Interior/Interior.scss";
+@import "../components/Sitetour/Sitetour.scss";
+@import "../components/Experience/Experience.scss";
+@import "../components/Progress/Progress.scss";
+@import "../components/Questions/Questions.scss";
+@import "../components/Residences/Residences.scss";
+@import "../components/Food/Food.scss";
+@import "../components/Villa/Villa.scss";
+@import "../components/Icon/Icon.scss";

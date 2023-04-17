@@ -1,0 +1,35 @@
+{
+  "hill": {
+    "title": "Hill Villa Park Hyatt Phu Quoc",
+    "context": "Nằm ở vị trí cao nhất, các biệt thự Hill Villa tại Park Hyatt Phu Quoc Residences không chỉ tĩnh lặng, an yên mà còn đẹp đến nao lòng mỗi chiều hoàng hôn xuống. Nội thất tinh xảo bên trong mang tới những cảm xúc khó quên, từ những tác phẩm chạm khắc đồng, đan lát mây tre và những vết rạn đất nung trên các món đồ trang trí hoàn toàn thủ công độc bản."
+  },
+  "imageslider": [
+    { "image": "/img/beck1.png" },
+    { "image": "/img/bds6.jpg" },
+    { "image": "/img/bds12.jpg" },
+    { "image": "/img/beck1.png" },
+    { "image": "/img/bds5.jpg" }
+  ],
+  "tables": [
+    {
+      "tabl": "Loại hình",
+      "chen1": "1 tầng, 4 phòng ngủ",
+      "chen2": "2 tầng, 3 phòng ngủ"
+    },
+    {
+      "tabl": "Số lượng",
+      "chen1": "2",
+      "chen2": "32"
+    },
+    {
+      "tabl": "Diện tích đất (m2)",
+      "chen1": "2.518 - 2.524",
+      "chen2": "1.528 - 1.541"
+    },
+    {
+      "tabl": "Diện tích sử dụng (m2)",
+      "chen1": "1.256",
+      "chen2": "812"
+    }
+  ]
+}

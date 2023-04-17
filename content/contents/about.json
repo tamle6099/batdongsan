@@ -1,0 +1,68 @@
+{
+  "heading": {
+    "title": "Lợi thế vị trí",
+    "content": "Park Hyatt Phu Quoc Residences tọa lạc vị thế vàng, địa linh mang phong thủy vượng khí. Phía trước là bãi biển riêng tư trải dài hơn 1.7km, nơi được mệnh danh là địa điểm ngắm hoàng hôn đẹp nhất Bãi Trường, Phú Quốc. Phía sau là dãy núi Rồng ôm trọn hai bên cùng dòng suối tự nhiên tuôn chảy từ thượng nguồn đỉnh núi. ",
+    "image": "/img/Map.png",
+    "introduce": "Điểm độc đáo của dự án Park Hyatt Phu Quoc Residences còn nằm ở chỗ không gian sống luôn được lưu giữ ở vẻ nguyên bản vốn có nhất với những gốc cây cổ thụ trăm năm tuổi, cùng cây cầu tàu nhuốm màu thời gian",
+    "introtre": "Với cơ sở hạ tầng phát triển đồng bộ, từ khu nghỉ dưỡng Park Hyatt Phu Quoc quý chủ nhân có thể dễ dàng tiếp cận các tiện ích ngoại khu khác như:"
+  },
+  "contents": [
+    {
+      "amount": "1",
+      "name": "Cách thị trấn An Thới: 5km"
+    },
+    {
+      "amount": "2",
+      "name": "Hệ sinh thái tập đoàn Sun Group: 5km"
+    },
+    {
+      "amount": "3",
+      "name": "Cáp treo Hòn Thơm: 6km"
+    },
+    {
+      "amount": "4",
+      "name": "biển Bãi Khem: 6km"
+    },
+    {
+      "amount": "5",
+      "name": "biển Bãi Sao: 7km"
+    },
+    {
+      "amount": "6",
+      "name": "Công viên nước Phu Quoc Marina: 7km"
+    },
+    {
+      "amount": "7",
+      "name": "Hệ sinh thái tập đoàn Bim Group: 7km"
+    },
+    {
+      "amount": "8",
+      "name": "Cách sân bay Phú Quốc 16km"
+    },
+    {
+      "amount": "9",
+      "name": "Cảng tàu khách quốc tế: 20km"
+    },
+    {
+      "amount": "10",
+      "name": "Chợ đêm Phú Quốc: 20km"
+    },
+    {
+      "amount": "11",
+      "name": "Thị trấn Dương Đông: 23km"
+    },
+    {
+      "amount": "12",
+      "name": "Thành phố không ngủ Grand World: 40km"
+    },
+    {
+      "amount": "13",
+      "name": "Vườn thú bán hoang dã Vinpearl Safari: 45km"
+    },
+    {
+      "amount": "14",
+      "name": "Công viên Vinpearl Land: 46km"
+    }
+  ],
+  "href": "#"
+}

@@ -1,0 +1,100 @@
+.tich__bg {
+  background-image: url("/img/banner5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ded7c7;
+}
+
+.tich--swiper {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide {
+    width: 80%;
+    opacity: 0.3;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    width: 80%;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    width: 80%;
+  }
+  .swiper-slide-active {
+    opacity: 1;
+  }
+  .swiper-button-prev {
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    cursor: pointer;
+    background-color: red;
+    background-image: url("/img/Arow-left.svg");
+    border-radius: 50%;
+  }
+  .swiper-button-next {
+    position: absolute;
+    bottom: 0;
+    right: 44%;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    cursor: pointer;
+    background-image: url("/img/Arow-right.svg");
+    border-radius: 50%;
+  }
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    opacity: 0.5;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .tich--swiper {
+    .swiper-slide {
+      width: 100%;
+    }
+  }
+  .tich__flex {
+    flex-direction: column;
+  }
+  .tich__swiper_flex {
+    flex-direction: column;
+  }
+  .tich--swiper {
+    .swiper-slide {
+      width: 100%;
+    }
+
+    .swiper-slide:nth-child(2n) {
+      width: 100%;
+    }
+
+    .swiper-slide:nth-child(3n) {
+      width: 100%;
+    }
+    .swiper-button-prev {
+      left: 30%;
+    }
+    .swiper-button-next {
+      right: 30%;
+    }
+  }
+}

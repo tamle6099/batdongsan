@@ -1,0 +1,39 @@
+{
+  "lake": {
+    "title": "Beach Villa Park Hyatt Phu Quoc",
+    "context": "Bộ sưu tập 20 biệt thự Beach Villa nằm dọc theo bờ biển, với tầm nhìn ôm trọn biển ngọc mà bạn có thể chiêm ngưỡng từ phòng khách sang trọng hay từ bể bơi riêng dài 17m. Một bể bơi khác sau nhà được bao quanh bởi cây xanh đảm bảo sự thoải mái cho các thành viên. Mỗi biệt thự được trang trí bởi những viên gạch thủ công mang sắc xanh celadon, nhiều món đồ nội thất được sáng tạo riêng, tất cả tạo nên nét đặc trưng độc đáo của những biệt thự Beach Villa"
+  },
+  "imageslider": [
+    { "image": "/img/beck1.png" },
+    { "image": "/img/bds5.jpg" },
+    { "image": "/img/bds12.jpg" },
+    { "image": "/img/beck1.png" },
+    { "image": "/img/bds6.jpg" }
+  ],
+  "tables": [
+    {
+      "tabl": "Loại hình",
+      "chen1": "1 tầng, 2 phòng ngủ",
+      "chen2": "1 tầng, 3 phòng ngủ",
+      "chen3": "1 tầng, 4 phòng ngủ"
+    },
+    {
+      "tabl": "Số lượng",
+      "chen1": "6",
+      "chen2": "10",
+      "chen3": "4"
+    },
+    {
+      "tabl": "Diện tích đất (m2)",
+      "chen1": "1.520 - 1.531",
+      "chen2": "1.826 - 2.025",
+      "chen3": "2.517 - 2.523"
+    },
+    {
+      "tabl": "Diện tích sử dụng (m2)",
+      "chen1": "765",
+      "chen2": "1.018",
+      "chen3": "1.256"
+    }
+  ]
+}

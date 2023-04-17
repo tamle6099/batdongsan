@@ -1,0 +1,40 @@
+{
+  "residences": [
+    {
+      "id": 1,
+      "image": "/img/bds1.jpg",
+      "context1": "Vị trí dự án Park Hyatt Phu Quoc Residences nằm ở đâu?",
+      "context2": "Nằm tại cuối Bãi Trường, được 2 dãy núi bao quanh tạo cho các căn biệt thự Park Hyatt Phú Quốc Residences vị thế tựa sơn hướng hải."
+    },
+    {
+      "id": 2,
+      "image": "/img/bds2.jpg",
+      "context1": "Vị trí dự án Park Hyatt Phu Quoc Residences nằm ở đâu?",
+      "context2": "Nằm tại cuối Bãi Trường, được 2 dãy núi bao quanh tạo cho các căn biệt thự Park Hyatt Phú Quốc Residences vị thế tựa sơn hướng hải."
+    },
+    {
+      "id": 3,
+      "image": "/img/bds3.jpg",
+      "context1": "Vị trí dự án Park Hyatt Phu Quoc Residences nằm ở đâu?",
+      "context2": "Nằm tại cuối Bãi Trường, được 2 dãy núi bao quanh tạo cho các căn biệt thự Park Hyatt Phú Quốc Residences vị thế tựa sơn hướng hải."
+    },
+    {
+      "id": 4,
+      "image": "/img/bds4.jpg",
+      "context1": "Vị trí dự án Park Hyatt Phu Quoc Residences nằm ở đâu?",
+      "context2": "Nằm tại cuối Bãi Trường, được 2 dãy núi bao quanh tạo cho các căn biệt thự Park Hyatt Phú Quốc Residences vị thế tựa sơn hướng hải."
+    },
+    {
+      "id": 5,
+      "image": "/img/bds5.jpg",
+      "context1": "Vị trí dự án Park Hyatt Phu Quoc Residences nằm ở đâu?",
+      "context2": "Nằm tại cuối Bãi Trường, được 2 dãy núi bao quanh tạo cho các căn biệt thự Park Hyatt Phú Quốc Residences vị thế tựa sơn hướng hải."
+    },
+    {
+      "id": 6,
+      "image": "/img/bds6.jpg",
+      "context1": "Vị trí dự án Park Hyatt Phu Quoc Residences nằm ở đâu?",
+      "context2": "Nằm tại cuối Bãi Trường, được 2 dãy núi bao quanh tạo cho các căn biệt thự Park Hyatt Phú Quốc Residences vị thế tựa sơn hướng hải."
+    }
+  ]
+}

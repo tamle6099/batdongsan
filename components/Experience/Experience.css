@@ -1,0 +1,25 @@
+.experence {
+  background-image: url("/img/dktn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.experence .experence-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(162, 144, 97, 0.85);
+}
+.experence .experence-conten {
+  position: relative;
+  z-index: 10;
+}
+
+.bimland-da {
+  background-image: url("/img/Bgptr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=Experience.css.map */

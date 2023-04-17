@@ -1,0 +1,73 @@
+.langue-bg {
+  background-image: url("/img/banner7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hoverimg {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+
+.test {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+
+.test img {
+  width: 100%;
+  height: 100%;
+}
+
+.test .text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  width: 100%;
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.8s ease-out;
+  transition-delay: 0.2s;
+}
+
+.test:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #a29061;
+  opacity: 0;
+  transition: all 0.8s ease-out;
+}
+
+.test:hover:after {
+  opacity: 0.9;
+}
+
+.test:hover .text {
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.hoverspan {
+  position: absolute;
+  bottom: 5%;
+  margin: auto;
+  transition: all 0.5s ease-out;
+  transition-delay: 0.2s;
+}
+
+.test:hover .hoverspan {
+  transform: translateY(40px);
+}/*# sourceMappingURL=Langue.css.map */

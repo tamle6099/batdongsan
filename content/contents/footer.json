@@ -1,0 +1,29 @@
+{
+  "image": "/img/logoyellow.png",
+  "address": "Địa chỉ: Toà xxxx, xxx Phạm Văn Đồng, Khu đô thị Time City, Gò Vấp, Hồ Chí Minh",
+  "email": "Email: tamle6099@gmail.com",
+  "license": "Copyright ©2023 TamLe. All Rights Reserved.",
+  "contents": [
+    {
+      "title": "Menu",
+      "linkList": [
+        { "link": "Giới Thiệu", "url": "#information", "icon": "" },
+        { "link": "Tổng Quan", "url": "#service", "icon": "" },
+        { "link": "Vị Trí", "url": "#about", "icon": "" },
+        { "link": "Tiện Ích", "url": "#pricing", "icon": "" },
+        { "link": "Thiết Kế", "url": "#contact", "icon": "" },
+        { "link": "Mặt Bằng", "url": "#service", "icon": "" },
+        { "link": "Tiến Độ", "url": "#about", "icon": "" },
+        { "link": "Tin Tức", "url": "#pricing", "icon": "" },
+        { "link": "Liên Hệ", "url": "#contact", "icon": "" }
+      ]
+    }
+  ],
+  "logoth": [
+    { "image": "/img/ft1.png" },
+    { "image": "/img/ft2.png" },
+    { "image": "/img/ft3.png" },
+    { "image": "/img/ft4.png" },
+    { "image": "/img/ft5.png" }
+  ]
+}

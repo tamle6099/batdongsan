@@ -1,0 +1,67 @@
+.tqda-icon {
+  background-image: url("/img/icontqda.svg");
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  display: grid;
+  align-items: center;
+  background-position-y: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4d4d56;
+}
+
+.tqda__banner {
+  background-image: url("/img/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tqda-swiper .swiper {
+  width: 100%;
+  height: 100%;
+}
+.tqda-swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tqda-swiper body {
+  background: #000;
+  color: #000;
+}
+.tqda-swiper .swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tqda-swiper .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.tqda-swiper .mySwiper2 {
+  height: 70%;
+  width: 100%;
+}
+.tqda-swiper .mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.tqda-swiper .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.tqda-swiper .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.tqda-swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Service.css.map */

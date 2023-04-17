@@ -1,0 +1,29 @@
+{
+  "langue": {
+    "title": "Ngôn ngữ thiết kế",
+    "context": "Qua lăng kính của các bậc thầy kiến trúc sư quốc tế, Park Hyatt Phu Quoc Residences là tác phẩm nghệ thuật lấy cảm hứng từ chính văn hóa gia đình Việt để tạo nên một không gian sống bên biển đầy tinh tế, nơi ấm cúng khi quây quần bên gia đình và bạn bè. Mọi thứ được thể hiện rõ nét qua ngôn ngữ tinh xảo của những món đồ thủ công như sơn mài, mây tre, đồng và gốm, hòa quyện cùng kiến trúc và nghệ thuật đương đại.",
+    "intro": "Mỗi căn villa nơi đây như một lời tri ân sâu sắc văn hóa truyền thống của mọi vùng miền Việt Nam."
+  },
+  "langueslie": [
+    {
+      "context": "Khu nghỉ dưỡng mang âm hưởng về một ngôi làng yên bình với những ruộng bậc thang và con đường rợp bóng tre xanh. Bên trong là bộ sưu tập 65 căn biệt thự với 2-4 phòng ngủ, cao từ 1-2 tầng. Mỗi căn villa đều có cửa sổ lớn và bể bơi riêng tư, rộng rãi bên trong nhà để quý chủ nhân có thể tận hưởng trọn vẹn vẻ đẹp thiên nhiên đất trời, biển cả.",
+      "image": "/img/bds4.jpg",
+      "text": "Xúc cảm chốn bình yên"
+    },
+    {
+      "context": "Park Hyatt Phu Quoc Residences là dự án hiếm hoi sở hữu địa thế phân tầng tự nhiên độc đáo, bao quanh bởi ngọn đồi rợp bóng cây cùng tầm nhìn khoáng đạt chiêm ngưỡng biển khơi xanh biếc. 20 căn biệt thự mặt biển – Beach Villa sẽ được tô điểm bởi thảm thực vật phong phú bao gồm những loài hoa và cây trồng nhiệt đới nhiều màu sắc.",
+      "image": "/img/bds7.jpg",
+      "text": "Hòa hợp với thiên nhiên"
+    },
+    {
+      "context": "Mỗi căn biệt thự Park Hyatt Phu Quoc Residences đều lấy cảm hứng từ mối quan hệ bền chặt trong gia đình Việt, nơi nhiều thế hệ cùng chung sống trong cùng một mái nhà. Một không gian ấm cúng thân thuộc dành riêng bạn và những người thương yêu, nơi lưu giữ vô vàn những khoảnh khắc đáng nhớ bên nhau.",
+      "image": "/img/bds8.jpg",
+      "text": "Nơi an trú riêng tư"
+    },
+    {
+      "context": "Lấy cảm hứng từ di sản văn hóa giàu có của Việt Nam, mỗi căn villa tại Park Hyatt Phu Quoc như một bộ sưu tập thu nhỏ của những tác phẩm nghệ thuật thủ công sơn mài truyền thống, chạm khắc đồng và đan lát bằng mây tre.",
+      "image": "/img/bds10.jpg",
+      "text": "Văn hóa giao thao thiên nhiên"
+    }
+  ]
+}

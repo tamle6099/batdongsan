@@ -1,0 +1,62 @@
+.tich__bg {
+  background-image: url("/img/banner5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ded7c7;
+}
+
+.tich--swiper .swiper {
+  width: 100%;
+  height: 100%;
+}
+.tich--swiper .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+}
+.tich--swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tich--swiper .swiper-slide {
+  width: 80%;
+  opacity: 0.3;
+}
+.tich--swiper .swiper-slide:nth-child(2n) {
+  width: 80%;
+}
+.tich--swiper .swiper-slide:nth-child(3n) {
+  width: 80%;
+}
+.tich--swiper .swiper-slide-active {
+  opacity: 1;
+}
+.tich--swiper .swiper-button-prev {
+  position: absolute;
+  bottom: 0;
+  left: 44%;
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+  cursor: pointer;
+  background-color: red;
+  background-image: url("/img/Arow-left.svg");
+  border-radius: 50%;
+}
+.tich--swiper .swiper-button-next {
+  position: absolute;
+  bottom: 0;
+  right: 44%;
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+  cursor: pointer;
+  background-image: url("/img/Arow-right.svg");
+  border-radius: 50%;
+}
+.tich--swiper .swiper-button-prev:hover,
+.tich--swiper .swiper-button-next:hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=Pricing.css.map */

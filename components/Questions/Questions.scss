@@ -1,0 +1,17 @@
+.question {
+  background-image: url("/img/banner14.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #ded7c7;
+  .question-icon {
+    background-image: url("/img/icontqda.svg");
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    display: grid;
+    align-items: center;
+    background-position-y: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4d4d56;
+  }
+}

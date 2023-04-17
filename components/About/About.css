@@ -1,0 +1,54 @@
+.ltvt__bg {
+  background-image: url("/img/banner4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ltvt__border__left {
+  border-bottom: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+}
+
+.lvt__border__bottom {
+  border-bottom: 2px solid #ccc;
+}
+
+.ltvt__grid :nth-child(7) {
+  border-bottom: none;
+}
+.ltvt__grid :nth-child(8),
+.ltvt__grid :nth-child(9),
+.ltvt__grid :nth-child(10),
+.ltvt__grid :nth-child(11),
+.ltvt__grid :nth-child(12),
+.ltvt__grid :nth-child(13),
+.ltvt__grid :nth-child(14) {
+  border-right: none;
+}
+.ltvt__grid :nth-child(14) {
+  border-bottom: none;
+}
+
+.lvtv__amount {
+  color: #a29061;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ltvt__span {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  border: 1px solid #a29061;
+  align-items: center;
+  justify-content: center;
+}
+
+.ltvt__grid {
+  display: -webkit-inline-box;
+  grid-template-rows: repeat(7, minmax(0, 1fr)) !important;
+}/*# sourceMappingURL=About.css.map */

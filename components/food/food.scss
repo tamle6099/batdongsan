@@ -1,0 +1,73 @@
+.food-bg {
+  background-image: url("/img/banner6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0d314e;
+  position: relative;
+  .swiper,
+  .swiper-container {
+    position: inherit;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-prev {
+    position: absolute;
+    bottom: 25%;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    background-image: url("/img/Arow-left.svg");
+    border-radius: 50%;
+  }
+  .swiper-button-next {
+    position: absolute;
+    bottom: 25%;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    background-image: url("/img/Arow-right.svg");
+    border-radius: 50%;
+  }
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    opacity: 0.5;
+  }
+}
+@media only screen and (min-width: 1580px) {
+  .food-bg {
+    .swiper-button-prev {
+      left: 10%;
+    }
+    .swiper-button-next {
+      right: 10%;
+    }
+  }
+}
+@media only screen and (max-width: 640px) {
+  .food-bg {
+    .swiper-button-next {
+      right: 9px;
+    }
+    .swiper-button-prev {
+      left: 9px;
+    }
+  }
+}

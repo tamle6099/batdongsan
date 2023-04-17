@@ -1,0 +1,47 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vị trí dự án Park Hyatt Phu Quoc Residences nằm ở đâu?",
+      "answer": "Park Hyatt Phu Quoc Residences là dự án biệt thự nghỉ dưỡng kề biển, được phát triển bởi BIM Land; và Park Hyatt là một trong những thương hiệu thuộc phân khúc cao cấp nhất được quản lý vận hành bởi Tập đoàn Hyatt – Hyatt Hotels Corporation. Dự án Park Hyatt Phú Quốc Residences như một ốc đảo mang đến cảm xúc tươi mới về những ngôi nhà truyền thống Việt nằm giữa thiên nhiên hoang sơ. Park Hyatt được ví như một tuyệt tác quyến rũ, hiếm có dành cho giới siêu giàu sở hữu và bổ sung vào bộ sưu tập đầu tư của mình."
+    },
+    {
+      "id": 2,
+      "question": "Chủ đầu tư dự án Park Hyatt Phu Quoc Residences là ai?",
+      "answer": "Dự án Park Hyatt Phú Quốc do BIM Land trực thuộc BIM Group làm chủ đầu tư.Đơn vị phân phối chính thức: WikiLand."
+    },
+    {
+      "id": 3,
+      "question": "Quy mô dự án Park Hyatt Phú Quốc như thế nào?",
+      "answer": "Nằm tại cuối Bãi Trường, được 2 dãy núi bao quanh tạo cho các căn biệt thự Park Hyatt Phú Quốc Residences vị thế tựa sơn hướng hải và sở hữu 1.7km bãi biển riêng tư. Bước ra khỏi ngọn núi là những đô thị sầm uất, khu vui chơi sôi động, trở về trong là chốn an bình của riêng mình."
+    },
+    {
+      "id": 4,
+      "question": "Diện tích biệt thự Park Hyatt Phu Quoc?",
+      "answer": "Hiện nay dự án đã cho công bố giá bán và chính sách ưu đãi cho các khách hàng, cụ thể như sau:",
+      "acreage": "Diện tích mỗi biệt thự: 1500m2 – 2500m2",
+      "price": " Đơn giá: 80 triệu/m2",
+      "totalprice": "Tổng giá bán ( đã gồm VAT): khoảng từ 86 tỷ đồng/ căn",
+      "rentalprice": "  Giá cho thuê: dự kiến từ 50 – 150 triệu đồng/ đêm"
+    },
+    {
+      "id": 5,
+      "question": "Giá bán biệt thự Park Hyatt Phu Quoc?",
+      "answer": "Đối với ngành khách sạn thì giá cho thuê sẽ phụ thuộc vào thời gian khách hàng đặt phòng. Tuy nhiên, bạn có thể tham khảo giá cho thuê của thương hiệu Park Hyatt tại Việt Nam cũng như một số Quốc gia khác trên thế giới. Đối với Park Hyatt Sài Gòn, tại thời điểm WikiLand viết bài thì giá thấp nhất khoảng 6.100.000đ/đêm, với Park Hyatt Seoul là 330.000 Won (tương đương 6.600.000đ/đêm), tại Park Hyatt Paris vào khoảng 690 Euro (tương đương 17.500.000đ/đêm), đối với một vài địa điểm có thể lên đến gần 1000$ như Park Hyatt Maldives Hadahaa hay Park Hyatt NewYork."
+    },
+    {
+      "id": 6,
+      "question": "Chính sách bán hàng và ưu đãi từ chủ đầu tư Bim Group?",
+      "answer": "CHIẾT KHẤU THANH TOÁN SỚM",
+      "acreage": "Khách hàng thanh toán sớm so với tiến độ quy định của CĐT được hưởng mức ưu đãi 10%/năm tính trên số tiền và số ngày thanh toán trước hạn",
+      "price": " Chính sách này áp dụng đến thời điểm bàn giao căn hộ. Chiết khấu thanh toán sớm được tính trên giá trị trước thuế VAT của căn nhà sau khi trừ đi tất cả chiết khấu/khuyến mại khác (nếu có)",
+      "totalprice": "Trong bất kỳ trường hợp nào, KH được đảm bảo thanh toán đầy đủ Lợi nhuận Cam kết năm đầu tiên muộn nhất tại thời điểm Khách hàng thanh toán đủ 95% giá trị CH",
+      "rentalprice": "  Giá cho thuê: dự kiến từ 50 – 150 triệu đồng/ đêm",
+      "answer2": "CHIẾT KHẤU MUA SỐ LƯỢNG LỚN",
+      "acreage2": "Đối tượng: KH mua số lượng sản phẩm thuộc khu căn hộ nghỉ dưỡng Intercontinental",
+      "price2": "Khách hàng mua 2 sản phẩm: Chiết khấu 1%",
+      "totalprice2": "Khách hàng mua 3 – 4 sản phẩm: Chiết khấu 2%",
+      "rentalprice2": " Khách hàng mua từ 5 sản phẩm trở lên: Chiết khấu 3%"
+    }
+  ]
+}

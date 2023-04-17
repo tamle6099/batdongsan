@@ -1,0 +1,33 @@
+.totalable {
+  background-image: url("/img/banner10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0d314e;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-slide {
+    height: 478px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .totalable {
+    .swiper-slide {
+      height: 320px;
+    }
+  }
+}

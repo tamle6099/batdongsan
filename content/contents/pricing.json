@@ -1,0 +1,40 @@
+{
+  "heading": {
+    "title": "Tiện ích",
+    "content": "Không chỉ có những dịch vụ hiếm có và trải nghiệm riêng tư dành riêng cho giới thượng lưu, thương hiệu Park Hyatt Phu Quoc còn mang đến một hành trình trải nghiệm xa xỉ mang đậm dấu ấn cá nhân, dựa trên 40 năm kinh nghiệm và kiến thức của một trong năm thương hiệu nghỉ dưỡng sang trọng nhất thế giới.",
+    "introduce": "Park Hyatt Phu Quoc không chỉ là một báu vật độc nhất vô nhị, mà còn là một tuyệt tác của những trải nghiệm tinh tế!",
+    "buttonContent": ""
+  },
+  "contents": [
+    {
+      "rate": "",
+      "type": "Start",
+      "price": "Free",
+      "time": "",
+      "endow": ["10 deploys per day", "10 GB of storage", "20 domains"],
+      "description": "Sed ut unde omnis iste natus accusantium doloremque.",
+      "buttonContent": "Start for free",
+      "url": "#contact"
+    },
+    {
+      "rate": "Most Popular",
+      "type": "Pro",
+      "price": "$38",
+      "time": "/ mo",
+      "endow": ["200 deploys per day", "80 GB of storage", "Global CDN"],
+      "description": "Sed ut unde omnis iste natus accusantium doloremque.",
+      "buttonContent": "Buy Pro",
+      "url": "#contact"
+    },
+    {
+      "rate": "",
+      "type": "Business",
+      "price": "$78",
+      "time": "/ mo",
+      "endow": ["500 GB of storage", "Unlimited domains", "24/7 Support"],
+      "description": "Sed ut unde omnis iste natus accusantium doloremque.",
+      "buttonContent": "Buy Business",
+      "url": "#contact"
+    }
+  ]
+}

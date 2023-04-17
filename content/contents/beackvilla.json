@@ -1,0 +1,24 @@
+{
+  "beach": {
+    "title": "Lake Villa Park Hyatt Phu Quoc",
+    "context": "Nằm bên một hồ nước nên thơ, cạnh những thửa ruộng bậc thang thơm dịu hương lá nếp, 10 biệt thự Lake Villa tại Park Hyatt Phu Quoc Residences đều mang tới tầm nhìn rộng mở để chiêm ngưỡng đường chân trời trên biển từ bình minh đến hoàng hôn. Không những thế, mỗi căn là một kiệt tác của nghệ thuật thiết kế nội thất với những điểm nhấn độc bản, lấy cảm hứng từ vẻ đẹp tự nhiên của Việt Nam như họa tiết cánh chuồn đỏ trên gạch men trang trí hay những món đồ gốm men Hoàng Thổ."
+  },
+  "tables": [
+    {
+      "tabl": "Loại hình",
+      "chen1": "1 tầng, 3 phòng ngủ"
+    },
+    {
+      "tabl": "Số lượng",
+      "chen1": "10"
+    },
+    {
+      "tabl": "Diện tích đất (m2)",
+      "chen1": "2.020 2.027"
+    },
+    {
+      "tabl": "Diện tích sử dụng (m2)",
+      "chen1": "1.018"
+    }
+  ]
+}

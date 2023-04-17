@@ -1,0 +1,18 @@
+.dktt__bg {
+  background-image: url("/img/banner4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dktt__affter {
+  background-image: url("/img/Sen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 30px 0 40px;
+  width: 500px;
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+  height: 450px;
+  margin: 15px -100px;
+}/*# sourceMappingURL=Contact.css.map */

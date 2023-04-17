@@ -1,0 +1,50 @@
+{
+  "brand": {
+    "image": "/img/logo.png",
+    "href": "#home"
+  },
+
+  "group": [
+    {
+      "href": "#home",
+      "content": "Trang Chủ"
+    },
+    {
+      "href": "#information",
+      "content": "Giới Thiệu"
+    },
+    {
+      "href": "#service",
+      "content": "Tổng Quan"
+    },
+    {
+      "href": "#about",
+      "content": "Vị Trí"
+    },
+
+    {
+      "href": "#pricing",
+      "content": "Tiện Ích"
+    },
+    {
+      "href": "#langue",
+      "content": "Thiết Kế"
+    },
+    {
+      "href": "#lable",
+      "content": "Mặt Bằng"
+    },
+    {
+      "href": "#question",
+      "content": "Câu Hỏi"
+    },
+    {
+      "href": "#residences",
+      "content": "Tin Tức"
+    },
+    {
+      "href": "#footer",
+      "content": "Liên Hệ"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+.experence {
+  background-image: url("/img/dktn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .experence-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(162, 144, 97, 0.85);
+  }
+  .experence-conten {
+    position: relative;
+    z-index: 10;
+  }
+
+  .exper__icon {
+    background-image: url("/img/default_Icon_white.svg");
+    background-repeat: no-repeat;
+    padding-left: 24px;
+    display: grid;
+    align-items: center;
+    background-position-y: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    font-style: italic;
+  }
+}
+.bimland-da {
+  background-image: url("/img/Bgptr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg__exper {
+  background: rgba(255, 255, 255, 0.1);
+}

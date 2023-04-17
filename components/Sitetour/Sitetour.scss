@@ -1,0 +1,28 @@
+.sitetour {
+  background-image: url("/img/banner11.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d9d9d9;
+  .hover01 .holder__img img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  .hover01 .holder__img:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  .holder__img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  .holder__img:hover + span {
+    bottom: -36px;
+    opacity: 1;
+  }
+}
