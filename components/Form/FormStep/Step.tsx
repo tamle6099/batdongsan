@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useFormData } from "../../../utils/context";
+import Image from "next/image";
 
 export default function Step({ formStep, nextFormStep }: any) {
   // const { setFormValues } = useFormData();
@@ -60,7 +61,12 @@ export default function Step({ formStep, nextFormStep }: any) {
           <button className="flex justify-between  bg-white p-3 items-center gap-10 hover:bg-[#A29061] hover:text-white text-[#4D4D56]  w-full ">
             <span className="">Tôi muốn nhận thông tin</span>
             <span>
-              <img src="/img/Arrow-button.svg" alt="" />
+              <Image
+                width={18}
+                height={18}
+                src="/img/Arrow-button.svg"
+                alt=""
+              />
             </span>
           </button>
         </div>

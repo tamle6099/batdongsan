@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-import "video-react/dist/video-react.css";
 type Props = {};
 
 export default function Interior({}: Props) {
@@ -14,6 +13,7 @@ export default function Interior({}: Props) {
       <Image
         width={1200}
         height={1200}
+        style={{ height: "100%", width: "100%" }}
         src="/img/video.jpg"
         alt=""
         className="w-full"

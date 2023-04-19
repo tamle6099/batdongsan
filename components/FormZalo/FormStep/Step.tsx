@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useFormData } from "../../../utils/context";
+import Image from "next/image";
 
 export default function Step({ formStep, nextFormStep }: any) {
   // const { setFormValues } = useFormData();
@@ -46,7 +47,12 @@ export default function Step({ formStep, nextFormStep }: any) {
               Đăng ký tham quan dự án
             </span>
             <span>
-              <img src="/img/Arrow-button.svg" alt="" />
+              <Image
+                height={18}
+                width={18}
+                src="/img/Arrow-button.svg"
+                alt=""
+              />
             </span>
           </button>
         </div>
