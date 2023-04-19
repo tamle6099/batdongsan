@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 // import { Player } from "video-react";
 import "video-react/dist/video-react.css";
@@ -9,14 +10,20 @@ export default function Interior({}: Props) {
       <h3 className="md:text-4xl text-xl text-black font-semibold text-center pb-10 uppercase">
         Tiêu chuẩn nội thất bàn giao
       </h3>
-      {/* <div>
-        <Player
+      {/* <div> */}
+      {/* <Player
           playsInline
           poster="/img/video.jpg"
           src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
         />
       </div> */}
-      <img src="/img/video.jpg" alt="" className="w-full" />
+      <Image
+        width={1200}
+        height={1200}
+        src="/img/video.jpg"
+        alt=""
+        className="w-full"
+      />
       <div className="max-w-4xl mx-auto text-center md:pt-20 pt-5 px-5 md:px-0">
         <p className="text-justify md:text-base text-xs">
           Trên đây là Cận cảnh căn biệt thự thí điểm lần 1 - Beach Villa thuộc

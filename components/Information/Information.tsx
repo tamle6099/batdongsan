@@ -3,6 +3,7 @@ import { Wrapper } from "../../Wrapper/Wrapper/Wrapper";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import Image from "next/image";
 interface Props {
   heading: {
     title: string;
@@ -24,10 +25,23 @@ export const Information = (props: Props) => {
           <h3 className="md:text-3xl text-xl text-white xm:font-normal">
             {props.heading.bannercontext}
           </h3>
-          <img src={props.heading.bannerlogo} alt="" className="w-36" />
+          <Image
+            src={props.heading.bannerlogo}
+            alt=""
+            className="w-36"
+            style={{ height: "100%", width: "100%" }}
+            width={200}
+            height={500}
+          />
           <div className="flex gap-10 item-center justify-center ">
             <h5 className="hero-f-16">{props.heading.bannerconpany}</h5>
-            <img src={props.heading.bannerbim} alt="w-[75px]" />
+            <Image
+              src={props.heading.bannerbim}
+              alt="w-[75px]"
+              width={200}
+              height={200}
+              style={{ height: "100%", width: "100%" }}
+            />
           </div>
         </div>
       </div>
@@ -66,22 +80,52 @@ export const Information = (props: Props) => {
               className="intro_swiper md:pb-24 pb-16"
             >
               <SwiperSlide>
-                <img src="/img/gt1.jpg" alt="slide 2" />
+                <Image
+                  src="/img/gt1.jpg"
+                  alt="slide 2"
+                  width={500}
+                  height={500}
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img/gt2.jpg" alt="slide 3" />
+                <Image
+                  src="/img/gt2.jpg"
+                  alt="slide 3"
+                  width={500}
+                  height={500}
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img/gt3.jpg" alt="slide 2" />
+                <Image
+                  src="/img/gt3.jpg"
+                  width={500}
+                  height={500}
+                  alt="slide 2"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img/gt1.jpg" alt="slide 2" />
+                <Image
+                  src="/img/gt1.jpg"
+                  width={500}
+                  height={500}
+                  alt="slide 2"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img/gt2.jpg" alt="slide 3" />
+                <Image
+                  src="/img/gt2.jpg"
+                  width={500}
+                  height={500}
+                  alt="slide 3"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img/gt3.jpg" alt="slide 2" />
+                <Image
+                  width={500}
+                  height={500}
+                  src="/img/gt3.jpg"
+                  alt="slide 2"
+                />
               </SwiperSlide>
             </Swiper>
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Wrapper } from "../../Wrapper/Wrapper/Wrapper";
+import Image from "next/image";
 
 interface Props {
   langue: {
@@ -33,7 +34,7 @@ export default function Langue(props: Props) {
                 id="rotate"
                 key={index}
               >
-                <img src={item.image} alt="" />
+                <Image width={500} height={500} src={item.image} alt="" />
                 <span className="hoverspan text-white">{item.text}</span>
                 <div className="text">
                   <p className="text-white hovertext md:text-base text-xs">

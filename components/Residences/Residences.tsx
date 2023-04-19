@@ -3,6 +3,7 @@ import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import Image from "next/image";
 interface Props {
   residences: {
     id: number;
@@ -40,7 +41,12 @@ export const Residences = (props: Props) => {
           {props.residences.map((item) => (
             <SwiperSlide key={item.id}>
               <div className="p-4 bg-[#DED7C7]">
-                <img src={item.image} alt="slide 2" />
+                <Image
+                  width={400}
+                  height={400}
+                  src={item.image}
+                  alt="slide 2"
+                />
                 <div className="py-2">
                   <p className="pt-5">{item.context1}</p>
                   <p className="pt-5">{item.context2}</p>

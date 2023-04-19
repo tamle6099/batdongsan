@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/thumbs";
 import clsx from "clsx";
+import Image from "next/image";
 
 interface Props {
   title: string;
@@ -70,7 +71,7 @@ export const Villa = ({
             >
               {imageslider.map((item, index) => (
                 <SwiperSlide key={index}>
-                  <img src={item.image} />
+                  <Image width={500} height={500} src={item.image} alt="" />
                 </SwiperSlide>
               ))}
             </Swiper>

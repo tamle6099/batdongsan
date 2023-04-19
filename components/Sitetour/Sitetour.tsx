@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Modal, ModalContent } from "../../utils/modal";
+import Image from "next/image";
 interface Props {
   images: {
     image: string;
@@ -26,7 +27,9 @@ export const Sitetour = (props: Props) => {
               <Modal onOpen={() => showModal(item.image)} key={index}>
                 <div className="holder">
                   <div className="holder__img">
-                    <img
+                    <Image
+                      width={500}
+                      height={500}
                       src={item.image}
                       alt=""
                       className="w-full h-full"
@@ -36,7 +39,9 @@ export const Sitetour = (props: Props) => {
                 </div>
                 {isOpen && (
                   <ModalContent onClose={() => setIsopen(true)}>
-                    <img
+                    <Image
+                      width={1200}
+                      height={1200}
                       src={current}
                       alt=""
                       className="w-full h-full"

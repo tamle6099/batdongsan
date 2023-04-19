@@ -27,14 +27,20 @@ export const Footer = (props: Props) => {
     <>
       <div className="footer-bg" id="footer">
         <footer className="divide-y pt-24">
-          <div className="container grid md:grid-cols-3 grid-cols-1 py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+          <div className="container grid md:grid-cols-3 grid-cols-1 md:gap-10 py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div>
               <a
                 rel="noopener noreferrer"
                 href="#"
                 className="flex justify-center space-x-3 lg:justify-start"
               >
-                <img src={props.image} alt={"logo"} width={250} height={250} />
+                <Image
+                  src={props.image}
+                  alt=""
+                  style={{ height: "70%", width: "70%" }}
+                  width={300}
+                  height={300}
+                />
               </a>
               <p className="mx-auto lg:ml-0  text-center md:text-start max-w-xs my-4 text-gray-800">
                 {props.address}
@@ -113,7 +119,14 @@ export const Footer = (props: Props) => {
                     key={index}
                     className="flex justify-center items-center "
                   >
-                    <img src={item.image} alt="" />
+                    <Image
+                      title=""
+                      width={100}
+                      height={100}
+                      style={{ height: "80%", width: "80%" }}
+                      src={item.image}
+                      alt=""
+                    />
                   </Link>
                 ))}
               </div>

@@ -1,12 +1,13 @@
 import React from "react";
 import { Wrapper } from "../../Wrapper/Wrapper/Wrapper";
 import { Title } from "../Title/Title";
+import Image from "next/image";
 
 interface Props {
   heading: {
     title: string;
     content?: string;
-    image?: string;
+    image: string;
     introduce?: string;
     introtre?: string;
     buttonContent?: string;
@@ -25,9 +26,11 @@ export const About = (props: Props) => {
         <div className="container">
           <div className="flex md:flex-1 ltvt__flex pb-5 md:gap-20 gap-10 ">
             <div className="order-2 md:order-none">
-              <img
+              <Image
                 src={props.heading.image}
                 alt=""
+                width={600}
+                height={600}
                 className=" w-full h-full"
               />
             </div>

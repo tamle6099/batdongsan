@@ -3,6 +3,7 @@ import { Wrapper } from "../../Wrapper/Wrapper/Wrapper";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import Image from "next/image";
 interface Props {
   heading: {
     title: string;
@@ -43,7 +44,7 @@ export default function Totalable(props: Props) {
             >
               {props.lakeslider.map((item, index) => (
                 <SwiperSlide key={index}>
-                  <img src={item.image} alt="" />
+                  <Image width={500} height={500} src={item.image} alt="" />
                 </SwiperSlide>
               ))}
             </Swiper>

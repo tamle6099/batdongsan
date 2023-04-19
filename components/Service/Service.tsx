@@ -7,6 +7,7 @@ import { FreeMode, Navigation, Thumbs } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/thumbs";
+import Image from "next/image";
 
 interface Props {
   heading: {
@@ -57,7 +58,7 @@ export const Service = (props: Props) => {
               >
                 {props.imageslider.map((img, index) => (
                   <SwiperSlide key={index}>
-                    <img src={img.image} alt="" />
+                    <Image src={img.image} alt="" width={500} height={500} />
                   </SwiperSlide>
                 ))}
               </Swiper>
@@ -72,7 +73,7 @@ export const Service = (props: Props) => {
               >
                 {props.imageslider.map((img, index) => (
                   <SwiperSlide key={index}>
-                    <img src={img.image} alt="" />
+                    <Image src={img.image} alt="" width={500} height={500} />
                   </SwiperSlide>
                 ))}
               </Swiper>

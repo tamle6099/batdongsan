@@ -5,6 +5,7 @@ import React, { useRef, useState } from "react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/thumbs";
+import Image from "next/image";
 
 interface Props {
   beach: {
@@ -39,7 +40,7 @@ export const BeachVilla = (props: Props) => {
               className="mySwiper2"
             >
               <SwiperSlide>
-                <img src="/img/beck1.png" />
+                <Image width={500} height={500} alt="" src="/img/beck1.png" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src="/img/bds1.jpg" />

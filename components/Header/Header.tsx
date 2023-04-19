@@ -59,7 +59,15 @@ export const Header = (props: Props) => {
           className="nav bg-transparent px-0 sm:px-0"
         >
           <Navbar.Brand href={props.brand.href}>
-            <img src={props.brand.image} alt="" className="header__logo" />
+            <Image
+              src={props.brand.image}
+              alt=""
+              width={200}
+              height={200}
+              style={{ height: "100%", width: "100%" }}
+              unoptimized
+              className="header__logo"
+            />
           </Navbar.Brand>
           <Navbar.Toggle className="header__button__mobile" />
           <Navbar.Collapse className="shadow-lg md:shadow-none rounded-lg md:bg-transparent header__ul">

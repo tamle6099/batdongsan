@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FormZalo from "../FormZalo/FormZalo";
 import FormCompleted from "../FormZalo/FormSucces";
 import { Step } from "../FormZalo/FormStep";
+import Image from "next/image";
 
 type Props = {};
 
@@ -23,7 +24,13 @@ export const Experience = (props: Props) => {
             </FormZalo>
           </div>
           <div className="p-2 border-2 border-white">
-            <img src="/img/tqda1.jpg" alt="" className="w-full" />
+            <Image
+              width={200}
+              height={200}
+              src="/img/tqda1.jpg"
+              alt=""
+              className="w-full"
+            />
           </div>
           <div>
             <p className="exper__icon">
@@ -46,15 +53,39 @@ export const Experience = (props: Props) => {
       </div>
       <div className="bimland-da ">
         <div className="container mx-auto">
-          <div className="flex md:justify-between flex-col md:items-center md:gap-10 md:py-5 py-3">
+          <div className="flex md:justify-between flex-col md:flex-row md:items-center md:gap-10 md:py-5 py-3">
             <h3 className="md:w-2/6 w-full text-3xl text-white md:border-r-4 md:border-white md:py-6 py-3  font-normal">
               Đơn vị phát triển dự án
             </h3>
             <div className="md:w-4/6 w-full grid grid-cols-4 gap-10 pb-5">
-              <img src="/img/bimland.png" alt="" />
-              <img src="/img/bimland.png" alt="" />
-              <img src="/img/bimland.png" alt="" />
-              <img src="/img/bimland.png" alt="" />
+              <Image
+                width={80}
+                height={80}
+                style={{ height: "100%", width: "100%" }}
+                src="/img/bimland.png"
+                alt=""
+              />
+              <Image
+                width={80}
+                height={80}
+                style={{ height: "100%", width: "100%" }}
+                src="/img/bimland.png"
+                alt=""
+              />
+              <Image
+                width={80}
+                height={80}
+                style={{ height: "100%", width: "100%" }}
+                src="/img/bimland.png"
+                alt=""
+              />
+              <Image
+                width={80}
+                height={80}
+                style={{ height: "100%", width: "100%" }}
+                src="/img/bimland.png"
+                alt=""
+              />
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@ import { Wrapper } from "../../Wrapper/Wrapper/Wrapper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper";
+import Image from "next/image";
 interface Props {
   heading: {
     title: string;
@@ -70,7 +71,7 @@ export const Pricing = (props: Props) => {
                     </p>
                   </div>
                   <div className="md:w-4/6 w-full order-1">
-                    <img src="/img/ti1.jpg" alt="" />
+                    <Image width={500} height={500} src="/img/ti1.jpg" alt="" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -96,7 +97,7 @@ export const Pricing = (props: Props) => {
                     </p>
                   </div>
                   <div className="md:w-4/6 w-full order-1">
-                    <img src="/img/ti1.jpg" alt="" />
+                    <Image width={500} height={500} src="/img/ti1.jpg" alt="" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -122,7 +123,7 @@ export const Pricing = (props: Props) => {
                     </p>
                   </div>
                   <div className="md:w-4/6 w-full order-1">
-                    <img src="/img/ti1.jpg" alt="" />
+                    <Image width={500} height={500} src="/img/ti1.jpg" alt="" />
                   </div>
                 </div>
               </SwiperSlide>

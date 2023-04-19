@@ -4,6 +4,7 @@ import { Title } from "../Title/Title";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import Image from "next/image";
 interface Props {
   heading: {
     title: string;
@@ -51,22 +52,22 @@ export const Food = (props: Props) => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="/img/food1.jpg" alt="" />
+              <Image height={500} width={500} src="/img/food1.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/food2.jpg" alt="" />
+              <Image height={500} width={500} src="/img/food2.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/food3.jpg" alt="" />
+              <Image height={500} width={500} src="/img/food3.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/food1.jpg" alt="" />
+              <Image height={500} width={500} src="/img/food1.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/food2.jpg" alt="" />
+              <Image height={500} width={500} src="/img/food2.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/img/food3.jpg" alt="" />
+              <Image height={500} width={500} src="/img/food3.jpg" alt="" />
             </SwiperSlide>
           </Swiper>
         </Wrapper>
