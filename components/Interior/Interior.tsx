@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-// import { Player } from "video-react";
+
 import "video-react/dist/video-react.css";
 type Props = {};
 
@@ -10,13 +10,7 @@ export default function Interior({}: Props) {
       <h3 className="md:text-4xl text-xl text-black font-semibold text-center pb-10 uppercase">
         Tiêu chuẩn nội thất bàn giao
       </h3>
-      {/* <div> */}
-      {/* <Player
-          playsInline
-          poster="/img/video.jpg"
-          src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-        />
-      </div> */}
+
       <Image
         width={1200}
         height={1200}
