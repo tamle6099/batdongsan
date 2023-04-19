@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Wrapper } from "../../Wrapper/Wrapper/Wrapper";
+import Image from "next/image";
 
 interface QuestionsProps {
   id: number;
@@ -46,17 +47,34 @@ export const Questions = (props: Props) => {
                 onClick={() => toggleIsLoading(item)}
               >
                 <div className="flex items-center justify-center md:gap-5 gap-3">
-                  <img src="/img/question_icon.svg" alt="" />
+                  <Image
+                    width={30}
+                    height={30}
+                    src="/img/question_icon.svg"
+                    alt=""
+                  />
 
                   <p className="md:text-base text-sm">{item.question}</p>
                 </div>
                 {item.isShowing ? (
                   <div>
-                    <img src="/img/upicon.svg" alt="" />
+                    <Image
+                      width={10}
+                      height={10}
+                      style={{ height: "100%", width: "100%" }}
+                      src="/img/upicon.svg"
+                      alt=""
+                    />
                   </div>
                 ) : (
                   <div>
-                    <img src="/img/downicon.svg" alt="" />
+                    <Image
+                      width={10}
+                      height={10}
+                      style={{ height: "100%", width: "100%" }}
+                      src="/img/downicon.svg"
+                      alt=""
+                    />
                   </div>
                 )}
               </div>
